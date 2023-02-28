@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>IF Else</title>
+    
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    
+    <h1>Trabalhando com IF e Else</h1>
+    
+
+    <button id="btn-color">CLique para Mudar de Cor</button>
+    
+    <script>
+        // AULA IF ELSE JAVASCRIPT - ISA
+
+let idade = 19;
+let nome = 'João'
+
+if (idade  < 18) {
+    document.write(`A idade é ${idade}, não é permetido menores.`)
+} else if(idade >= 18) {
+    document.write(`A idade é ${idade}, o usuário é maior de idade.`)
+} else {
+    document.write('Algo deu errado, tente novamente.')
+}
+document.write('<br>')
+if ( nome == 'João' && idade == 19 ) {
+    document.write('Liberado!')
+}
+document.write('<br>')
+
+let a  = 5
+let b = 3
+
+if (a + b == 3) {
+    document.write('O resultado é igul a 3.')
+}else if (a  == 4) {
+    document.write('O valor é igual a 4.')
+}else if ( b == 3) {
+    document.write('O valor é igual a 3.')
+}else {
+    document.write('Nenhuma das opções correspondidas.')
+}
+
+// FIM --- AULA IF ELSE JAVASCRIPT - ISA
+    </script>
+</body> 
+</html>

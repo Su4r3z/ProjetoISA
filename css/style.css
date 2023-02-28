@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#title {
+    position: absolute;
+    left: 45%;
+    padding: 15px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    margin: 15px;
+}
+#btn-default {
+    position: absolute;
+    top: 30%;
+    left: 46%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+}
+
+#btn-color {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #000;
+    background-color: #f77;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+#btn-color2  {
+    position: absolute;
+    top: 70%;
+    left: 46%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #000;
+    background-color: #7f7;
+    border-radius: 5px;
+    color: #000;
+}
