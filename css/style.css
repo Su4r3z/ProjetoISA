@@ -1,3 +1,5 @@
+/* MUDAR COR BOTÂO */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -31,7 +33,7 @@
     padding: 20px;
     font-size: 16px;
     border: 1px solid #000;
-    background-color: #f77;
+    background-color: #f9b;
     border-radius: 5px;
     color: #fff;
 
@@ -44,7 +46,17 @@
     padding: 20px;
     font-size: 16px;
     border: 1px solid #000;
-    background-color: #7f7;
+    background-color: #bf7;
     border-radius: 5px;
     color: #000;
 }
+
+
+/* CONTADOR */
+
+
+#contador{
+    overflow-y: scroll;
+    resize: none;
+    height: 300px;  
+ }
